@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class testController {
-
+    // 변경점
     @GetMapping("/api")
     @ResponseBody
     public String testapi(@RequestParam String req){
